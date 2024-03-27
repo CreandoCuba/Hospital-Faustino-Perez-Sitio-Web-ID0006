@@ -312,13 +312,13 @@ button {
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
+     height: 980px ;
      padding-top: 0;
 }
 
 .text-bg {
      text-align: left;
      font-size: 32px !important;
-     padding: 30px;
 }
 
 .relative {
@@ -445,6 +445,10 @@ button {
      background: #084872;
      color: #fff;
      transition: ease-in all 0.5s;
+}
+.notice{
+     display: flex;
+     flex-direction: column;
 }
 .carousel-inner{
      display: flex;
