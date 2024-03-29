@@ -248,3 +248,45 @@ h1 {
     width: 150px;
     height: 150px;
 }
+
+@font-face {
+    font-family: 'Gill Sans MT';
+    src: url('../font/gillsansmt.ttf'); /* Especifica la ruta de la fuente en tu servidor */
+}
+
+.hero-text{
+    display: inline-block; /* Permite alinear verticalmente */
+}
+
+.p-hero{
+    line-height: 27%;
+}
+
+.hero-contenedor {
+    width: 100%; /* Opcional: ajusta el ancho del contenedor según tus necesidades */
+    height: 100px; /* Altura específica para el contenedor */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+  /* Aplica la fuente Gill Sans MT al texto */
+.gill-sans-1, .hero-text, .glow-text {
+    align-content: center;
+    color: #32ABBE;
+    font-family: 'Gill Sans MT';
+    font-size: 1cm;
+}
+.gill-sans-2, .glow-text {
+    color: #084872;
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+    font-size: 30%;
+}
+.gill-sans-3, .glow-text{
+    color: #1577A5;
+    font-family: 'Gill Sans MT';
+    font-size: 60%;
+}
+
+.glow-text {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00; /* Propiedad que crea el efecto de resplandor */
+}
