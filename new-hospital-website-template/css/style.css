@@ -6,6 +6,10 @@
     --dark: #084872;
 }
 
+h1 {
+    color: #084872; /* Cambia el color del texto a rojo */
+}
+
 .btn {
     font-weight: 700;
     transition: .5s;
