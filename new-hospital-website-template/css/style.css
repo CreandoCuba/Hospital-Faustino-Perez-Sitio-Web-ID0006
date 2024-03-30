@@ -267,23 +267,22 @@ h1 {
     height: 100px; /* Altura específica para el contenedor */
     text-align: center; /* Alinea el texto al centro */
 }
-
   /* Aplica la fuente Gill Sans MT al texto */
-.gill-sans-1, .hero-text, .glow-text {
+.arial-1, .hero-text, .glow-text {
     align-content: center;
     color: #32ABBE;
-    font-family: 'Gill Sans MT';
-    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9cm;
 }
-.gill-sans-2, .glow-text {
+.arial-2, .glow-text {
     color: #084872;
-    font-family: 'Gill Sans MT';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-size: 30%;
 }
-.gill-sans-3, .glow-text{
+.arial-3, .glow-text{
     color: #1577A5;
-    font-family: 'Gill Sans MT';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
 }
 
