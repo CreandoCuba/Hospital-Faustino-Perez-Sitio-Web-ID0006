@@ -295,5 +295,7 @@ h1 {
     font-size: clamp(1.25rem, 1.60rem, 1.75rem);
 }
 .notice-p{
-    max-height: 120px; min-height: 120px;
+    font-size: clamp(0.8rem, 0.95rem, 1rem);
+    max-height: 120px;
+    min-height: 120px;
 }
