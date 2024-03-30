@@ -289,3 +289,11 @@ h1 {
 .glow-text {
     text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00; /* Propiedad que crea el efecto de resplandor */
 }
+.notice-tittle{
+    min-height: 100.19px;
+    max-height: 100px; 
+    font-size: clamp(1.25rem, 1.60rem, 1.75rem);
+}
+.notice-p{
+    max-height: 120px; min-height: 120px;
+}
