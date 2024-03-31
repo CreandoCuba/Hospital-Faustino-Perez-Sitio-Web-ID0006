@@ -302,3 +302,17 @@ h1 {
 .contact-item{
     font-size: clamp(14px, 16px, 24px);
 }
+.btn-color{
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-color:hover{
+    color:var(--light);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.grow-text:hover{
+    color: var(--light) !important;
+}
