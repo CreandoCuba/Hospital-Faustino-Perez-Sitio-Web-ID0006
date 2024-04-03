@@ -261,8 +261,8 @@ h1 {
 .p-hero{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    line-height: 27%;
+    justify-content: center;
+    line-height: 1.2cm;
 }
 
 .hero-contenedor {
@@ -320,4 +320,28 @@ h1 {
 }
 .text-grow:hover{
     color: var(--light) !important;
+}
+.gill-sans-1{
+    font-family: 'Gill Sans MT';
+    align-content: center;
+    color: #32ABBE;
+    text-align: justify;
+    font-weight: bold;
+    font-size: calc(0.9cm * 1.5);
+}
+
+.gill-sans-2{
+    font-family: 'Gill Sans MT';
+    align-content: center;
+    color: #084872;
+    font-weight: normal;
+    font-size: calc(0.56cm * 1.5);
+    text-align: justify;
+}
+.gill-sans-3{
+    font-family: 'Gill Sans MT';
+    align-content: center;
+    color: #1577A5;
+    font-size: calc(0.882cm * 1.5);
+    text-align: justify;
 }
