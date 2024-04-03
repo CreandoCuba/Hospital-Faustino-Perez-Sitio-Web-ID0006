@@ -5,7 +5,9 @@
     --light: #ACD48D;
     --dark: #084872;
 }
-
+html{
+    scroll-behavior: smooth !important;
+}
 h1 {
     color: #084872; /* Cambia el color del texto a rojo */
 }
