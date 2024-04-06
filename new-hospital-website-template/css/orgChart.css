@@ -71,6 +71,9 @@
 	border-radius: 5px;
 	padding: 20px 4px;
   }
+  .large{
+	font-size: 90% !important;
+  }
   .org-chart .lvl-b {
 	position: relative;
 	overflow: unset;
@@ -295,8 +298,8 @@
 		top: calc(50% - 50px);
 	}
   }
-	.org-chart ul li span {
-		font-size: 100%;
+	.org-chart ul li span, .large {
+		font-size: 100% !important;
 	}
 	.org-chart .departments {
 	  width: 100%;
